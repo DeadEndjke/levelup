@@ -14,10 +14,16 @@
 
 .first_block {
 
-    padding-bottom: 70px;
+    margin-bottom: 770px;
     background: url('video.png');
     background-size: cover;
 
+}
+
+@media screen and (max-width:640px) {
+    .first_block {
+        margin-bottom: 470px;
+    }
 }
 
 .first_block>h1 {
