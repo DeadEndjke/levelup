@@ -15,6 +15,11 @@ function dec_min() {
     if (min !== 0) {
         $('.min').html(min - 1);
         $('.sec').html(59)
+    } else {
+        $('.timer').css('display', 'none');
+        $('.timerend').css('display', 'block');
+        $('.price').css('display', 'none');
+        $('.oldprice').css('text-decoration', 'none');
     }
 }
 

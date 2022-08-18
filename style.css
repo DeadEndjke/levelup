@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 
-
 }
 
 .container {
@@ -76,7 +75,9 @@
     .bot {
         display: grid;
         grid-template-columns: none;
-        grid-template-rows: auto
+        grid-template-rows: auto;
+        width: 90vw;
+        margin: 0 auto;
     }
 
 
@@ -489,6 +490,23 @@ form>button:hover {
     margin-bottom: 100px;
 }
 
+.timerend {
+    max-width: 1000px;
+    width: 70%;
+    margin: 0 auto;
+    display: none;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:949px) {
+    .timerend {
+        font-size: 5vw;
+    }
+}
+
 .hr,
 .min,
 .sec,
@@ -551,8 +569,15 @@ form>span {
 
 @media screen and (max-width:378px) {
     .productform>img {
-        width: 100%;
+        width: 90vw;
         height: auto;
+    }
+
+    input,
+    form,
+    ol {
+        width: 90vw;
+        margin: 0 auto;
     }
 
 }
