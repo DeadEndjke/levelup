@@ -344,7 +344,6 @@ img {
 }
 
 
-.carousel-item {}
 
 .avatar>img {
     height: 100px;
@@ -579,4 +578,18 @@ form>span {
         margin: 0 auto;
     }
 
+}
+
+@media screen and (max-width:140px) {
+    .small {
+        display: none;
+    }
+
+    .ctructure_block>p {
+        font-size: 2vw;
+    }
+
+    .second_block {
+        padding: 0;
+    }
 }
